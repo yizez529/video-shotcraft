@@ -41,6 +41,10 @@ sharp, on-brand and fully editable.
 
 ![Eight-second workflow loop: product → capture real pages → storyboard with shot recipe cards → animate in Remotion → beat sync and sound design → render and frame QA → MP4, Motion Workbench and JianYing draft](assets/readme/workflow.gif)
 
+### Model selection in Codex
+
+The host agent selects the model used for shot planning and visual review. Use a general-purpose GPT model for routine storyboards and revisions, and a stronger reasoning model for complex multi-scene planning or difficult frame reviews when available. Remotion rendering and recipe selection helpers do not require a separate language model API key.
+
 ## What's new
 
 > [!IMPORTANT]
